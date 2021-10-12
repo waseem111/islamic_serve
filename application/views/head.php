@@ -130,7 +130,7 @@
 	</div><!-- End header-top -->
 	<header id="header">
 		<section class="container clearfix">
-			<div class="logo"><a href="index.html"><img alt="" src="images/logo.png" width="60%"></a></div>
+			<div class="logo"><a href="index.html"><img alt="" src="<?php echo base_url() ?>assets/images/logo.png" width="60%"></a></div>
 			<nav class="navigation">
 				<ul style="    float: right;">
 					<li class=""><a href="index.html">Home</a>

@@ -632,6 +632,7 @@ div[class*="slider_shadow"]:before, div[class^="header_shadow"] {
 	border-radius: 2px;
 	height: 48px;
 	margin-top: 71px;
+	width: 100%;
 }
 .ask-me .col-md-12 .publish-question {
 	bottom: 6px;

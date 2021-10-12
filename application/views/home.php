@@ -18,7 +18,8 @@
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/prettyPhoto.css">
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/fontello/css/fontello.css">
- 
+ <script src="<?php echo base_url() ?>assets/js/jquery.min.js"></script> 
+
 </head>
 <body>
 
@@ -357,7 +358,6 @@
 </div>
 
 <?php require_once "footer.php" ?>
-<script src="<?php echo base_url() ?>assets/js/jquery.min.js"></script> 
 <!-- <script src="<?php echo base_url() ?>assets/js/jquery-ui-1.10.3.custom.min.js"></script> -->
 <script src="<?php echo base_url() ?>assets/js/jquery.easing.1.3.min.js"></script> 
  <script src="<?php echo base_url() ?>assets/js/html5.js"></script>

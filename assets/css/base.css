@@ -3,7 +3,7 @@
 body {
 	font-size: 14px;
 	line-height: 22px;
-}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block; }ol, ul, li {	list-style: none; }blockquote, q {	quotes: none; }blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none; }table {	border-collapse: collapse;	border-spacing: 0; }p {	margin: 0 0 20px 0;
+}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block; }ol, ul, li {	list-style: none; }blockquote, q {	quotes: none; }blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none; }table {	border-collapse: collapse;	border-spacing: 0; }p {	margin: 0 0 20px 0;
 	line-height: 22px;
 }
 /* Basic Styles  */html {	-webkit-text-size-adjust: none;}* {	outline: none;}input[type='submit'] {   -webkit-appearance: none;   -moz-appearance: none;   appearance: none;     cursor: pointer;
