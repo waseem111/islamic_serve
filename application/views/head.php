@@ -133,13 +133,13 @@
 			<div class="logo"><a href="index.html"><img alt="" src="<?php echo base_url() ?>assets/images/logo.png" width="60%"></a></div>
 			<nav class="navigation">
 				<ul style="    float: right;">
-					<li class=""><a href="index.html">Home</a>
+					<li class=""><a href="<?php echo base_url() ?>">Home</a>
 						
 					</li>
 					
-					<li class="ask_question"><a href="ask_question.html">Ask Question</a></li>
-					<li><a href="category.html">Category</a></li>
-					<li><a href="new-answers.html">New Answers</a></li>
+					<li class="ask_question"><a href="<?php echo base_url() ?>askquestion">Ask Question</a></li>
+					<li><a href="<?php echo base_url() ?>Category">Category</a></li>
+					<li><a href="<?php echo base_url() ?>newanswers">New Answers</a></li>
 					<!-- <li><a href="#">Get to Know Islaam</a></li>
 					<li><a href="#">Books & Article </a>
 						<ul>
@@ -147,9 +147,9 @@
 							<li><a href="#">Article</a></li>
 						</ul>
 					</li> -->
-					<li><a href="ourteam.html"> Our Team </a></li>
+					<li><a href="<?php echo base_url() ?>ourteam"> Our Team </a></li>
 					
-					<li><a href="contact_us.html">Contact </a></li>
+					<li><a href="<?php echo base_url() ?>contact">Contact </a></li>
 				</ul>
 			</nav>
 		</section><!-- End container -->
