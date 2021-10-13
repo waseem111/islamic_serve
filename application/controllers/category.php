@@ -1,6 +1,6 @@
 <?php 
 
-class category extends CI_Controller
+class Category extends CI_Controller
 {
 	public function index()
 	{
