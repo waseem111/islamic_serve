@@ -1,3 +1,1 @@
-[13-Jan-2021 17:56:31 UTC] PHP Fatal error:  Cannot redeclare getAddress() (previously declared in /home/mouinbvx/public_html/prcce/application/views/header.php:14) in /home/mouinbvx/public_html/prcce/application/views/footer.php on line 10
-[13-Jan-2021 17:56:48 UTC] PHP Fatal error:  Cannot redeclare getAddress() (previously declared in /home/mouinbvx/public_html/prcce/application/views/header.php:14) in /home/mouinbvx/public_html/prcce/application/views/footer.php on line 10
-[17-Feb-2021 11:18:42 UTC] PHP Fatal error:  Cannot redeclare Categorymodel::update_category() in /home/mouinbvx/public_html/prcce/application/models/Categorymodel.php on line 41
+
