@@ -1,4 +1,39 @@
+<style>
+.dropbtn {
+  
 
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 999;
+  top:40px
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.dropdown-content a:hover {background-color: #eb9141;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {width:100%}
+</style>
 <div id="header-nav1">
     <div class="login-panel">
 		<section class="container">
@@ -98,27 +133,19 @@
 				<ul>
 					
 					<li><a href="login.html" id="login-panel"><i class="icon-user"></i>Login Area</a></li>
-					<li><a href="#"><i class="icon-user"></i>Hi,Waseem</a>
-						<!-- <ul>
-							<li><a href="#">Profile</a></li>
-							<li class="current_page_item"><a href="#">Sign Out </a></li>
-							
-						</ul> -->
 					
-					</li>
-					
+					<li class="dropdown">
+					<a href="#" class="dropbtn"><i class="icon-user"></i>Hi,Waseem</a>
+  <div class="dropdown-content">
+    <a href="<?php echo base_url() ?>profile" style="padding: 4px; line-height: 2;">Profile</a>
+    <a href="#" style="padding: 4px;  line-height: 2;">Questions </a>
+    <a href="<?php echo base_url() ?>editeprofile" style="padding: 4px; line-height: 2;">Edit Profile</a>
+  </div>
+</li>
 				</ul>
 
 
-				<!-- <li class="current_page_item"><a href="index.html">Home</a>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li class="current_page_item"><a href="index_2.html">Home 2</a></li>
-						<li><a href="index_boxed_1.html">Home Boxed 1</a></li>
-						<li><a href="index_boxed_2.html">Home Boxed 2</a></li>
-						<li><a href="index_no_box.html">Home No Box</a></li>
-					</ul>
-				</li> -->
+			
 			</nav>
 			<div class="header-search">
 				<p  style="font-size: 12px;font-weight: normal;color:#fff;padding: 7px 0 7px 30px;margin-bottom: 0;">
