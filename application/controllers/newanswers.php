@@ -1,6 +1,6 @@
 <?php 
 
-class newanswers extends CI_Controller
+class Newanswers extends CI_Controller
 {
 	public function index()
 	{
