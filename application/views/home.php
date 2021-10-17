@@ -360,7 +360,7 @@
 <?php require_once "footer.php" ?>
 <!-- <script src="<?php echo base_url() ?>assets/js/jquery-ui-1.10.3.custom.min.js"></script> -->
 <script src="<?php echo base_url() ?>assets/js/jquery.easing.1.3.min.js"></script> 
- <script src="<?php echo base_url() ?>assets/js/html5.js"></script>
+<script src="<?php echo base_url() ?>assets/js/html5.js"></script>
 <script src="<?php echo base_url() ?>assets/js/jflickrfeed.min.js"></script>
 <script src="<?php echo base_url() ?>assets/js/jquery.inview.min.js"></script>
 <script src="<?php echo base_url() ?>assets/js/jquery.tipsy.js"></script>

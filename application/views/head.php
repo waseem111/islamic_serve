@@ -68,7 +68,7 @@
 					<div class="page-content Register">
 						<h2>Register Now</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi adipiscing gravdio, sit amet suscipit risus ultrices eu. Fusce viverra neque at purus laoreet consequa. Vivamus vulputate posuere nisl quis consequat.</p>
-						<a class="button color small signup">Create an account</a>
+						<a class="button color small " href="<?php echo base_url() ?>user/signup">Create an account</a>
 					</div>
 				</div>
 			</div>
@@ -78,27 +78,30 @@
 	<div class="panel-pop" id="signup">
 		<h2>Register Now<i class="icon-remove"></i></h2>
 		<div class="form-style form-style-3">
-			<form>
+			<form method="post" action="#">
 				<div class="form-inputs clearfix">
 					<p>
 						<label class="required">Username<span>*</span></label>
-						<input type="text">
+						<input type="text" name="Name" id="Name" required value="<?php echo set_value('Name') ?>">
+						<?php echo form_error('Name'); ?>
 					</p>
 					<p>
 						<label class="required">E-Mail<span>*</span></label>
-						<input type="email">
+						<input type="email" name="Email" id="email1" required value="<?php echo set_value('Email') ?>">
+						<?php echo form_error('Email'); ?>
 					</p>
 					<p>
 						<label class="required">Password<span>*</span></label>
-						<input type="password" value="">
+						<input type="password" name="Password" value="" id="password1" required value="<?php echo set_value('Password') ?>">
+						<?php echo form_error('Password'); ?>
 					</p>
 					<p>
 						<label class="required">Confirm Password<span>*</span></label>
-						<input type="password" value="">
+						<input type="password" name="confirm_password" id="confirm_password" value="" required>
 					</p>
 				</div>
 				<p class="form-submit">
-					<input type="submit" value="Signup" class="button color small submit">
+					<input type="submit" value="Signup" id="sigup_btn" name="signup" class="button color small submit">
 				</p>
 			</form>
 		</div>
@@ -230,7 +233,6 @@
   </script>
   <script type="text/javascript">
 
-    
 
    
 
